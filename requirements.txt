@@ -1,0 +1,4 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+MarkupSafe  # Jinja2 templating engine dependency
