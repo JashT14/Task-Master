@@ -40,7 +40,7 @@ This basic task manager provides a foundation for understanding how Flask applic
 1.  Start the development server:
 
     ```bash
-    python run.py
+    python app.py
     ```
 
     This will typically start the Flask development server on `http://127.0.0.1:5000/` by default. You can access the application in your web browser at that URL.
@@ -48,7 +48,7 @@ This basic task manager provides a foundation for understanding how Flask applic
 **Additional Notes**
 
 * The `requirements.txt` file lists all the Python packages required by the application.
-* The `run.py` script is a common way to start Flask applications in development mode.
+* The `app.py` script is a common way to start Flask applications in development mode.
 
 **Development Tips**
 
