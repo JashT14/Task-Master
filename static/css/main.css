@@ -1,38 +1,51 @@
-body, html {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: lightblue;
-}
 
-.content {
-    margin: 0 auto;
-    width: 400px;
-    text-align: center;
-}
+    body, html {
+        margin: 0;
+        font-family: sans-serif;
+        background: linear-gradient(135deg, #ff99ff, #99ccff);
+    }
 
-table, td, th {
-    border: 1px solid #aaa;
-}
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
+    .content {
+        margin: 50px auto;
+        width: 60%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-th {
-    height: 30px;
-}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+        animation: slideIn 0.56s ease-in-out;
+    }
 
-td {
-    text-align: center;
-    padding: 5px;
-}
+    @keyframes slideIn {
+        from {
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
 
-.form {
-    margin-top: 20px;
-    text-align: center;
-}
+    th, td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+    }
 
-#content {
-    width: 70%;
-}
+    th {
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    .form {
+        margin-top: 20px;
+        text-align: center;
+    }
